@@ -5,9 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Acme App</title>
   </head>
   <body>
     <!-- Start Coding Here -->
+    <div class="contact">
+      <section class="contact-section">
+        <!-- ส่วนหัวของ Contact Section -->
+        <h2 class="contact-title">Get in Touch</h2>
+
+        <!-- ฟอร์มสำหรับการติดต่อ -->
+        <form class="contact-form" action="#" method="POST">
+          <label class="contact-label" for="name">Name</label>
+          <input
+            class="contact-input"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="John Doe"
+            required
+          />
+
+          <label class="contact-label" for="email">Email</label>
+          <input
+            class="contact-input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="john@example.com"
+            required
+          />
+
+          <label class="contact-label" for="message">Message</label>
+          <textarea
+            class="contact-textarea"
+            id="message"
+            name="message"
+            placeholder="Your message..."
+            required
+          ></textarea>
+
+          <button class="contact-button" type="submit">Submit</button>
+        </form>
+      </section>
+
+      <!-- ส่วน Footer -->
+      <footer class="contact-footer">
+        <p class="footer-text">Acme Productivity App &copy; 2024</p>
+        <nav class="footer-nav">
+          <a class="footer-link" href="#">FAQ</a>
+          <a class="footer-link" href="#">Terms</a>
+          <a class="footer-link" href="#">AI Policy</a>
+          <a class="footer-link" href="#">Pricing</a>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html>

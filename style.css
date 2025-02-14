@@ -1,1 +1,124 @@
-/* Start coding here */
+/* CSS: styles.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f6f6fb;
+  }
+  
+  .contact-section {
+    background: #ffffffb2;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 1199px;
+    height: 666px;
+    text-align: center;
+  }
+  
+  .contact-title {
+    margin-bottom: 20px;
+    font-size: 44px;
+    font-weight: 700;
+    margin-top: 50px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-label {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #5f5f76;
+    margin-left: 265px;
+  }
+  
+  .contact-input,
+  .contact-textarea {
+    width: 589px;
+    padding: 10px;
+    border: 1px solid #e0e0ed;
+    border-radius: 12px;
+    font-size: 16px;
+    align-self: center;
+  }
+  
+  .contact-input:hover,
+  .contact-textarea:hover {
+    border: 1px solid #b5a9ff;
+  }
+  
+  .contact-input:focus,
+  .contact-textarea:focus {
+    border: 1px solid #5e44ff;
+    outline: none;
+  }
+  
+  .contact-input:focus::placeholder,
+  .contact-textarea:focus::placeholder {
+    color: transparent;
+  }
+  
+  .contact-button {
+    background: #1a1a2c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 589px;
+    height: 56px;
+    align-self: center;
+    margin-top: 25px;
+  }
+  
+  .contact-button:hover {
+    background: #5f5f76;
+  }
+  
+  .contact-button:focus {
+    background: #35354d;
+    border: 4px solid #5f5f76;
+  }
+  
+  .contact-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1199px;
+    padding: 20px;
+    font-size: 12px;
+    position: relative;
+    top: 48px;
+  }
+  
+  .contact-textarea {
+    height: 102px;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: #1a1a2c;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 25px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
