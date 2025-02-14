@@ -144,3 +144,44 @@ body {
     background-color: #333;
 }
 
+.container-2 {
+    display: flex;
+    padding: 20px;
+    margin: 15px;
+    gap: 20px;
+    justify-content: center;
+  }
+
+.block {
+    padding: 28px;
+    gap: 40px;
+    border-radius: 24px;
+}
+
+.block > p {
+    color: #5F5F76;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.block > .image {
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    background-color: #FFFFFF99;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#block-1 {
+    background-color: #d7e5f6;
+}
+
+#block-2 {
+    background-color: #D8E0FC;
+}
+
+#block-3 {
+    background-color: #e8dcf6;
+}
